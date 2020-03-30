@@ -1,59 +1,85 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Arial;
+    font-family: "Arial";
     box-sizing: border-box;
+
 }
+.hr {
+    margin: auto;
+    width: 70%;
+    height: 5px!important;
+    color: black;
+}
+.header {color: white;
+    padding: 50px;
+    display: flex;
+    background-color: #1d4ae2;
+}
+.box-header {
+
+} h3 {
+    padding-top: 30px;
+  }
 
 .box-img {
-    width: 100%;
-    height: 100vh;
-    background-image: url("../images/avatar.jpg ");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    padding-left: 40px;
+} img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 3px solid #c6c8ca;
 }
-.box-img .txt-name {
-    color: black;
-    text-align: center;
-    padding-top: 500px!important;
-}
-.txt-skill {
+  .content {
+      padding: 0px 100px 100px 100px;
+      background-color:#cccccc33;
+  }
+.percent-time {
+    width: 250px;
     display: flex;
-}
-.txt-hv , .box-skill, .txt-kn, .txt-mt, .txt-ttcn{
-    margin-top: 100px;
-    background-color: #c8cbcf;
-    padding: 30px;
-    box-shadow: 0px 2px 7px -1px #d5d5d5;
 
 }
-i {
-    color: rgb(40, 167, 69);
+ ul li {
+    list-style-type: none;
 }
-.txt-ttcn p span i {
-    padding-right: 10px;
-    font-size: 20px;
-    color: #005cbf;
+.percent-time1 {
+     width: 70%;
+     background-color: #6f8098;
+     padding-left: 15px;
+     border-radius: 20px 0px 0px 20px;
+ }
+.percent-time-2 {
+    width: 30%;
+    background-color: #a2adb5;
+    border-radius: 0px 20px 20px 0px;
 }
-.col-md-6 {
-    padding: 0px!important;
+.box-css .percent-time1 {
+    width: 60%;
 }
-.position-fixed {
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    transition: all 1s ease;
-    background-color: #005cbf!important;
-    width: 100%;
-    height: 80px;
-    color: white;
-    z-index: 111111;
+.box-css .percent-time-2 {
+    width: 40%;
 }
-.nav-item a {
-    color: white!important;
+.box-BT .percent-time1 {
+    width: 55%;
 }
-.skill {
-    z-index: 1;
+.box-BT .percent-time-2 {
+    width: 45%;
+}
+.box-jquery .percent-time1 {
+    width: 40%;
+}
+.box-jquery .percent-time-2 {
+    width: 60%;
+}
+.box-mysql .percent-time1 {
+    width: 50%;
+}
+.box-mysql .percent-time-2 {
+    width: 50%;
+}
+.box-php .percent-time1 {
+    width: 60%;
+}
+.box-php .percent-time-2 {
+    width: 40%;
 }
